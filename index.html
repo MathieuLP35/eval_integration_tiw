@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Archit'Eco</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="assets/css/root.css">
+    <link rel="stylesheet" href="assets/css/keyframe.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+    <header id="header">
+        <nav id="header_menu">
+            <div class="logo">
+              <img src="images/logo.png" alt="logo" />
+              <form action="#" method="POST">
+                <select name="langage" id="langage">
+                  <option selected>EN</option>
+                  <option value="french">FR</option>
+                  <option value="english">EN</option>
+                  <option value="spanish">SP</option>
+                </select>
+              </form>
+            </div>
+            <label for="burger"><span class="dashicons dashicons-menu"></span></label>
+            <input type="checkbox" id="burger" name="burger" value="" />
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Room</a></li>
+              <li><a href="#">Service</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Gallery</a></li>
+            </ul>
+            <div class="basket">
+              <a class="btn btn-basket" href="#"></a>
+              <a class="btn grey" href="#">Login</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+      <section id="section1">
+        <div class="bloc1">
+          <p class>Welcome home</p>
+          <h1>Our world is your playground.</h1>
+          <p>Make yourself at home in our very sophisticated guest rooms.</p>
+        </div>
+        <form action="#" method="POST">
+          <div class="check-in">
+            <label for="check-in"><span class="calendar-icon"></span> Check-in</label>
+            <input type="date" id="check-in" name="check-in" value="2018-07-22" min="2018-01-01" max="2018-12-31">
+          </div>
+
+          <div class="check-out">
+            <label for="check-out"><span class="calendar-icon"></span> Check-out</label>
+            <input type="date" id="check-in" name="check-in" value="2018-07-23" min="2018-01-01" max="2018-12-31">
+          </div>
+          
+          <div class="guest">
+            <label for="guest"><span class="character-icon"></span> Guest</label>
+            <select name="guest" id="guest">
+              <option selected>4 Persons</option>
+              <option value="1">1 Persons</option>
+              <option value="2">2 Persons</option>
+              <option value="3">3 Persons</option>
+              <option value="4">4 Persons</option>
+            </select>
+          </div>
+
+          <button type="submit">Check <br/> Availability</button>
+        </form>
+        <div class="bloc2">
+          <div class="card">
+            <p class="number">20 +</p>
+            <p>Various services</p>
+          </div>
+          <div class="card">
+            <p class="number">150 +</p>
+            <p>Different rooms</p>
+          </div>
+          <div class="card">
+            <p class="number">15 +</p>
+            <p>Experiences</p>
+          </div>
+        </div>
+      </section>
+      <section id="section2">
+        <h2>Beach Hotel More than a stay</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores voluptatem, cum tenetur, culpa maxime eaque sint ab explicabo impedit molestiae at est perferendis facilis, reprehenderit repudiandae illum officia amet maiores!</p>
+        <p class="sign">CEO ALEX</p>
+        <video class="video" controls>
+          <source src="url.mp4" type="video/mp4">
+          <img class="logo-video" src="images/logo2.png" alt="logo">
+        </video>
+      </section>
+      <section id="section3">
+         <h2>Our guests love us</h2>
+         <div class="bloc1">
+          <div class="card">
+            <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, esse similique. Eos tenetur eaque fugiat quas, nobis expedita dolore, sapiente accusamus ratione ut, numquam voluptate rept al!".</p>
+            <div class="guest-section">
+              <div class="guest-avatar">
+                <img src="images/guest.png" alt="guest avatar">
+                <p>Ralph Edwars <br /><span class="nationality">American</span></p>
+              </div>
+              <img class="simple-gui" src="images/simple-gui.png" alt="">
+            </div>
+          </div>
+          <div class="card">
+            <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, esse similique. Eos tenetur eaque fugiat quas, nobis expedita dolore, sapiente accusamus ratione ut, numquam voluptatepellat al!".</p>
+            <div class="guest-section">
+              <div class="guest-avatar">
+                <img src="images/guest.png" alt="guest avatar">
+                <p>Ralph Edwars <br /><span class="nationality">American</span></p>
+              </div>
+              <img class="simple-gui" src="images/simple-gui.png" alt="">
+            </div>
+          </div>
+          <div class="card">
+            <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, esse similique. Eos tenetur eaque fugiat quas, nobis expedita dolore, sapiente accusamus ratione ut, numquam volute repellat al!".</p>
+            <div class="guest-section">
+              <div class="guest-avatar">
+                <img src="images/guest.png" alt="guest avatar">
+                <p>Ralph Edwars <br /><span class="nationality">American</span></p>
+              </div>
+              <img class="simple-gui" src="images/simple-gui.png" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="footer">
+      <div class="footer-bloc1">
+        <div class="footer-sous-bloc1">
+          <img src="images/logo2.png" alt="logo">
+          <ul>
+            <li>Hotel.np002@gmail.com</li>
+            <li>+84 0934 425 031</li>
+            <li>497 Evergeen Rd. Roseville, CA 98823</li>
+            <li><a href="#">Check map</a></li>
+          </ul>
+        </div>
+        <div class="footer-sous-bloc2">
+          <h3 class="footer-bloc-title">Usefull links</h3>
+          <nav id="footer-nav">
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Rooms</a></li>
+              <li><a href="#">Service</a></li>
+            </ul>
+            <ul>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Gallery</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer-sous-bloc3">
+          <h3 class="footer-bloc-title">Stay in touch</h3>
+          <form action="#" method="POST">
+            <input type="email" id="email" name="email" placeholder="Enter your email">
+            <button type="submit">Subscribe</button>
+          </form>
+          <ul class="social">
+            <li><a class="facebook" href="#facebook"></a></li>
+            <li><a class="twitter" href="#twitter"></a></li>
+            <li><a class="insta" href="#insta"></a></li>
+            <li><a class="youtube" href="#youtube"></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bloc2">
+        <p>2021 Hotel FT.Designed by Ovatheme</p>
+        <form action="#" method="POST">
+          <select name="langage" id="langage">
+            <option selected>English</option>
+            <option value="french">French</option>
+            <option value="spanish">Spanish</option>
+          </select>
+        </form>
+      </div>
+    </footer>
+</body>
+</html>

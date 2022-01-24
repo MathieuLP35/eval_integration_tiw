@@ -1,0 +1,12 @@
+:root{ 
+    /* UTILE */
+    --pad: 0 7.5%; 
+
+    /* COULEUR */
+    --black: #020206;
+    --lightgrey: #e2e3e3;
+    --grey: #a4a6a3;
+    --white: #ffffff;
+    --blue: #0e97aa;
+    --blue2: #063c43;
+}

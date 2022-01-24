@@ -1,0 +1,263 @@
+/*responsive*/
+
+@media screen and (max-width:1280px){
+    #section1{
+        margin-bottom: 45vh;
+    }
+
+    #section1 .bloc2{
+        flex-direction: column;
+    }
+
+    #section1 form{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:1045px){
+
+    #section1 form{
+        width: 100%;
+        height: 20.1%;
+        padding: 0 35px;
+    }
+
+    #section1 form button{
+        position: absolute;
+        left:0;
+        top: 5.0em;
+        width: 100%;
+        height: 30%;
+        border-top-right-radius: 0;
+    }
+
+    #section1 form button br{
+        display: none;
+    }
+    
+    #section2 .video{
+        height: 400px;
+        width: 700px;
+        bottom: -280px;
+    }
+    
+    #section3 .guest-section .simple-gui{
+        display: none;
+    }
+
+    #section3 .bloc1{
+        flex-direction: column;
+    }
+
+    #section3 .bloc1 .card{
+        width: 100%;
+    }
+
+    #section3 .bloc1 .card p{
+        font-size: 0.9rem;
+    }
+
+    /* MENU BURGER */
+    #header_menu label{
+        display: block;
+        position: absolute;
+        top: 10px;
+        right: 50%;
+        z-index: auto;
+    }
+
+    #header_menu .dashicons{
+        font-size: 3.0rem;
+        width: auto;
+        height: auto;
+    }
+    #header_menu ul{
+        display: none;
+        transition: all .6s;
+    }
+
+    #header_menu input{
+        display: none;
+    }    
+
+    #header_menu input:checked + ul{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        top:70px;
+        left: 0;
+        z-index: 2;
+        background-color: rgba(160, 186, 185, .7);
+        font-size: 1.2rem;
+    }
+
+    #header_menu ul li a{
+        display: flex;
+        justify-content: center;
+        white-space:nowrap;
+        text-align: center;
+        margin-top: -70px;
+        padding: 70px 10%;
+        margin: 0;
+        border-bottom: 1px dotted #ccc;
+        width: 100%;
+        font-weight: bold;
+        color: var(--brown);
+        animation: fading 1s;
+        animation-iteration-count: 1;    
+    }
+
+    #header_menu a:hover::after{
+        display: none;
+    }
+
+    #header_menu > ul li:hover, #header_menu > ul li:active{
+        background: var(--blue);
+    }
+
+    #header_menu li::after{
+        display: none;
+    }
+}
+
+@media screen and (max-width:950px){
+    .footer-sous-bloc2{
+        display: none;
+    }
+
+    #section2 .video{
+        height: 250px;
+        width: 560px;
+        bottom: -100px;
+    }
+
+    #section3{
+        margin-top: 15vh;
+    }
+}
+
+@media screen and (max-width:768px){
+    .footer-bloc1{
+        flex-direction: column;
+    }
+
+    #section2 p{
+        width: 90%;
+    }
+
+    #section2 .video{
+        height: 250px;
+        width: 400px;
+        bottom: -150px;
+    }
+
+    #section3{
+        margin-top: 20vh;
+    }
+
+}
+
+@media screen and (max-width:550px){
+    #section1{
+        margin: 0 0 45vh 0;
+    }
+
+    .bloc1 h1{
+        font-size: 2.2rem;
+    }
+
+    .check-out,
+    .check-in,
+    .guest{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    #section1 form button{
+        top: 9.0em;
+    }
+
+    #section1 .bloc2{
+        margin-top: 10vh;
+    }
+
+    #section2 .video{
+        height: 250px;
+        width: 300px;
+        bottom: -150px;
+    }
+
+    #header_menu label{
+        top: 15px;
+        right: 45%;
+    }
+
+}
+
+@media screen and (max-width:480px){
+    .bloc1 h1{
+        font-size: 1.5rem;
+    }
+
+    #section1 form button{
+        margin: 10px 0 50px;
+    }
+
+    #section2 .video{
+        height: 250px;
+        width: 300px;
+        bottom: -150px;
+    }
+
+    .check-out:before,
+    .check-out:after{
+        display:none;
+    }
+
+    #section1 .bloc2{
+        margin: 150px 0;
+    }
+
+    #section2{
+        margin-top: 550px;
+    }
+    
+    #header_menu form{
+        display: none;
+    }
+
+    #header_menu label{
+        right: 56%;
+    }
+
+}
+
+@media screen and (max-width:400px){
+    #section1 .bloc2{
+        margin-bottom: 50vh;
+    }
+    
+    #section2 .video{
+        height: 200px;
+        width: 300px;
+        bottom: -160px;
+    }
+
+    #section2{
+        margin-bottom: 13.0em;
+    }
+
+    .footer-sous-bloc3 form{
+        flex-wrap: wrap;
+    }
+
+    .footer-sous-bloc3 form button{
+        margin-left: 0;
+        text-align: center;
+    }
+}
+
